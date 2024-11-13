@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "JWTPractice.Controllers.AuthController",
+    "Method": "AddtorRole",
+    "RelativePath": "api/Auth/AddRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "JWTPractice.DTO.RoleModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTPractice.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "JWTPractice.DTO.LoginModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTPractice.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "JWTPractice.DTO.RegisterModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
